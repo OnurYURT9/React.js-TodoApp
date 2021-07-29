@@ -1,0 +1,21 @@
+{
+  "name": "HELLO_REACT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"live-server public",
+    "babel":"npx babel src/classes.js --out-file=public/scripts/app.js --out-file=public/scripts/app.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
