@@ -1,0 +1,42 @@
+{
+  "name": "HELLO-REACT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/standalone": "^7.8.7",
+    "bootstrap": "^4.5.2",
+    "lodash": "^4.17.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^4.2.1",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^9.0.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "webpack-build": "webpack --mode production",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnurYURT9/React.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OnurYURT9/React.js/issues"
+  },
+  "homepage": "https://github.com/OnurYURT9/React.js#readme",
+  "description": ""
+}
